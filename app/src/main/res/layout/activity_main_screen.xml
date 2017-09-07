@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.magyani.magyaniquiz1.MainScreen">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S. COMPUTER SCIENCE"
+        android:id="@+id/btnSend"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="goToCS"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S. INFORMATION TECHNOLOGY"
+        android:id="@+id/btnSend2"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/btnSend"
+        android:layout_alignLeft="@+id/btnSend"
+        android:layout_alignStart="@+id/btnSend"
+        android:onClick="goToIT"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S. INFORMATION SYSTEM"
+        android:id="@+id/btnSend3"
+        android:layout_below="@+id/btnSend2"
+        android:layout_alignLeft="@+id/btnSend2"
+        android:layout_alignStart="@+id/btnSend2"
+        android:layout_marginTop="32dp"
+        android:onClick="goToIS"/>
+
+</RelativeLayout>
